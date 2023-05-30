@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+h1{
+    display: flex;
+    align-self: start;
+    justify-content: baseline;
+
+}
+
+
+li {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    text-align: left;
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+  }
+  ul{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

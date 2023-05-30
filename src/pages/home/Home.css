@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'ubuntu', sans-serif;
+    background-color: #fefefe;
+    image-rendering: auto;
+
+}
+
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+}
+
